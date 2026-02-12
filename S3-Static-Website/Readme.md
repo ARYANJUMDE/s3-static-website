@@ -39,6 +39,24 @@ The website is deployed without servers and uses AWS-managed infrastructure, mak
 8. Configured default root object as `index.html`
 9. Enabled HTTPS via CloudFront
 10. Accessed website using CloudFront distribution URL
+    
+## 🚀 Deployment on AWS EC2 (Day 12)
+
+This project was deployed on an AWS EC2 instance using Apache.
+
+### Steps Performed:
+
+1. Launched EC2 (Amazon Linux 2023)
+2. Connected via SSH
+3. Installed Apache (httpd)
+4. Started and enabled Apache service
+5. Cloned GitHub repository into EC2
+6. Copied project files to `/var/www/html`
+7. Restarted Apache
+8. Accessed website using EC2 Public IP
+
+### Live EC2 URL:
+http://43.205.253.17/
 
 ---
 
@@ -67,4 +85,5 @@ Screenshots of S3 configuration and CloudFront distribution are available in the
 
 ## 👤 Author
 Aryan
+
 
